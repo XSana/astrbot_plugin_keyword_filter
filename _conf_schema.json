@@ -1,0 +1,20 @@
+{
+  "block_prefixes": {
+    "description": "前缀匹配屏蔽列表（消息以这些内容开头即被屏蔽）",
+    "type": "list",
+    "hint": "例如：['#', '/ai', 'BOT:']",
+    "default": []
+  },
+  "block_keywords": {
+    "description": "关键字匹配屏蔽列表（消息包含这些内容即被屏蔽）",
+    "type": "list",
+    "hint": "例如：['广告', '违规词']",
+    "default": []
+  },
+  "block_suffixes": {
+    "description": "后缀匹配屏蔽列表（消息以这些内容结尾即被屏蔽）",
+    "type": "list",
+    "hint": "例如：['.jpg', '.mp4']",
+    "default": []
+  }
+}

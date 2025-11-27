@@ -1,6 +1,6 @@
 name: astrbot_plugin_keyword_filter
 display_name: 关键词过滤插件
 desc: 一个可自定义屏蔽前缀/关键字/后缀的插件
-version: v1.0.0
+version: v1.0.1
 author: XSana
 repo: https://github.com/XSana/astrbot_plugin_keyword_filter

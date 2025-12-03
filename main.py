@@ -3,7 +3,7 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api import AstrBotConfig, logger
 
 
-@register("keyword_filter", "XSana", "一个可自定义屏蔽前缀/关键字/后缀的插件", "1.0.0")
+@register("keyword_filter", "XSana", "一个可自定义屏蔽前缀/关键字/后缀的插件", "1.0.1")
 class KeywordBlocker(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)
